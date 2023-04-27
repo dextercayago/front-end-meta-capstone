@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
 	margin: 0;
 	padding: 0;
@@ -17,7 +13,7 @@ p {
 }
 
 .form-desc {
-	text-align: left;
+	text-align: center;
 	padding: 2em 1em;
 }
 
@@ -212,10 +208,10 @@ main {
 
 form {
 	background-color: #faecdc;
-	width: 600px;
+	width: 65%;
 	margin-inline: auto;
-	text-align: left;
-	padding: 2em 2em;
+	text-align: center;
+	padding: 2em 1em;
 	margin-bottom: 1.5em;
 	border-radius: 20px;
 }
@@ -485,7 +481,6 @@ footer {
 
 	form {
 		width: 80%;
-
 	}
 
 	.btn {
@@ -553,7 +548,7 @@ footer {
 	.guests-occasion {
 		display: flex;
 		flex-direction: column;
-		align-items: left;
+		align-items: center;
 		gap: 1em;
 	}
 
@@ -689,3 +684,4 @@ footer {
 		padding-inline: 1em;
 	}
 }
+

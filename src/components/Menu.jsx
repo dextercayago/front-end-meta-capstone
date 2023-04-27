@@ -1,59 +1,50 @@
+import React from 'react';
+import Greeksalad from "../assets/greek-salad.webp"
+import Bruschetta from "../assets/bruschetta.jpeg"
+import Lemondesert from "../assets/lemon-dessert.webp"
+
 export default function Menu() {
     return (
-      <div className="menu">
-        <div className="menu-desc">
-            <p className="title menu-title">This weeks specials!</p>
-            <button className="btn">
-                    Online Menu
-                </button>
+        <div>
+        <h1 className='font-bold text-5xl text-center mt-5 mb-5 text-primary-yellow' > Weekly Specials!</h1>
+        <div className='flex flex-wrap flex-row justify-center '>
+        <div className="max-w-md rounded overflow-hidden shadow-lg px-5">
+            <a href="/"><img className='h-60 w-full object-cover mt-2' src={Greeksalad} alt="Salad" /></a>
+        <div className="px-6 py-4  flex flex-wrap flex-col'">
+            <div className="font-bold text-xl mb-2 mr-12">Greek Salad</div>
+            <div class="font-bold text-xl mb-2 ml-12">12.99$</div>
+        <div>
+                <p className="text-gray-700 text-1xl"> The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
+                <button className='bg-primary-yellow w-[200px] rounded-full font-medium text-2xl my-6 mx-auto py-3 text-highlight-dark'>Order online</button>
         </div>
-        <div className="cards">
-            <div className="card">
-                <img className="menu-img" src="/images/greek-salad.png" alt="greek salad"/>
-                <div className="name-price">
-                    <p className="item-name">Greek Salad</p>
-                    <p className="item-price">$12.99</p>
-                </div>
-                <div className="item-desc">
-                    <p>The famous greek salad of crispy lettuce, 
-                        peppers, olives and our Chicago style feta cheese, 
-                        garnished with crunchy garlic and rosemary croutons. </p>
-                </div>
-                <div className="delivery">
-                    <p>Order a delivery</p>
-                </div>
-            </div>
-            <div className="card">
-                <img className="menu-img" src="/images/bruchetta.jpg" alt="bruchetta"/>
-                <div className="name-price">
-                    <p className="item-name">Bruchetta</p>
-                    <p className="item-price">$5.99</p>
-                </div>
-                <div className="item-desc">
-                    <p>Our Bruschetta is made from grilled bread that has 
-                        been smeared with garlic and seasoned with salt and olive oil.  </p>
-                </div>
-                <div className="delivery">
-                    <p>Order a delivery</p>
-                </div>
-            </div>
-            <div className="card">
-                <img className="menu-img" src="/images/lemon-dessert.jpg" alt="lemon-dessert"/>
-                <div className="name-price">
-                    <p className="item-name">Lemon Dessert</p>
-                    <p className="item-price">$5.00</p>
-                </div>
-                <div className="item-desc">
-                    <p>This comes straight from grandma’s recipe book,
-                         every last ingredient has been sourced and is as 
-                         authentic as can be imagined. </p>
-                </div>
-                <div className="delivery">
-                    <p>Order a delivery</p>
-                </div>
-            </div>
         </div>
-      </div>
+         </div>
+
+         <div className="max-w-md rounded overflow-hidden shadow-lg px-5">
+            <a href="/"><img className='h-60 w-full object-cover mt-2' src={Bruschetta} alt="Salad" /></a>
+        <div className="px-6 py-4  flex flex-wrap flex-col'">
+            <div className="font-bold text-xl mb-2 mr-12">Bruschetta</div>
+            <div class="font-bold text-xl mb-2 ml-12">16.99$</div>
+        <div>
+                <p className="text-gray-700 text-1xl"> Toasted bread, topped with tomato, prosciutto, and cheese. Seasoned with salt and olive oil. </p>
+                <button className='bg-primary-yellow w-[200px] rounded-full font-medium text-2xl my-6 mx-auto py-3 text-highlight-dark'>Order online</button>
+        </div>
+        </div>
+         </div>
+
+         <div className="max-w-md rounded overflow-hidden shadow-lg px-5">
+            <a href="/"><img className='h-60 w-full object-cover mt-2' src={Lemondesert} alt="Salad" /></a>
+        <div className="px-6 py-4  flex flex-wrap flex-col'">
+            <div className="font-bold text-xl mb-2 mr-12">Lemon Dessert</div>
+            <div class="font-bold text-xl mb-2 ml-12">8.99$</div>
+        <div>
+                <p className="text-gray-700 text-1xl"> Fresh baked lemon bread coated in salt and sugar. Powdered in citrus and lemon zest. </p>
+                <button className='bg-primary-yellow w-[200px] rounded-full font-medium text-2xl my-6 mx-auto py-3 text-highlight-dark'>Order online</button>
+        </div>
+        </div>
+         </div>
+        </div>
+        </div>
     )
   }
   
