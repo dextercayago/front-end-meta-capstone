@@ -684,3 +684,7 @@ footer {
 		padding-inline: 1em;
 	}
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

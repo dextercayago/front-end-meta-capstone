@@ -1,7 +1,11 @@
-# Little lemon restaurant online rservation system
+# Little lemon restaurant online booking reservation 
+
+## Run these command to use
+* npm install
+* npm run dev
 
 ## Description
-Welcome to the Little Lemon Restaurant Online Reservation System! 
+Welcome to the Little Lemon Restaurant Online booking reservation! 
 This is a capstone project for the Meta Front End Development course, 
 developed using React hooks, HTML, and CSS.
 
